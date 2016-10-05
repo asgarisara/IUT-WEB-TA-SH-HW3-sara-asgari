@@ -1,0 +1,48 @@
+form{
+	font-family: Yekan;
+	color: #444340;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    border-radius: 20px;
+    font-family: Yekan;
+    /*padding-top: 5%;*/
+}
+.btn-primary:hover {
+	background-color: #fb3737;
+	border-color: #fb3737;
+}
+.glyphicon-check {
+	color: #EE00ff;
+}
+/*@media (min-width: 768px) {  
+	
+	form {
+		width: 750px;
+		margin: auto auto;
+	}
+
+}*/
+.form-group input , textarea, select{
+	margin-bottom: 5%;
+}
+h4{
+	padding-right: 20%;
+	padding-bottom: 3%;
+	font-family: Yekan;
+	color: #444340;
+}
+.title-emp h5{
+	font-family: Yekan;
+	color: #444340;
+}
+.info-emp p{
+	font-family: Yekan;
+	color: #666666;
+}
+ hr{
+	background-color: red;
+	color: blue;
+}

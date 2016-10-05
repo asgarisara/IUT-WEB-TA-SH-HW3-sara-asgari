@@ -1,0 +1,195 @@
+/*--fonts--*/
+@font-face {
+  font-family: 'Yekan';
+  src: url('../fonts/Yekan.eot?#') format('eot'),  
+       url('../fonts/Yekan.woff') format('woff'),
+       url('../fonts/Yekan.ttf') format('truetype');
+  font-style:normal;
+  font-weight:normal;
+}
+/*---start---*/ 
+html,body{width: 100%;height: 100%;padding: 0;margin: 0}
+body{overflow-x:hidden }
+
+/* top header */
+.title h1{
+	font-family: Yekan;
+	color: #ffffff;
+	/*font-size: 48px;*/
+	padding-top: 20px;
+}
+.logo img {
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+header {
+	background-color:#3fb8af;
+
+}
+
+/* navigation */
+.navbar {
+	background-color: #cdeeec;
+	font-family: Yekan;
+	
+}
+.glyphicon-home,.glyphicon-gift,.glyphicon-user
+,.glyphicon-list-alt,.glyphicon-info-sign,.glyphicon-earphone{
+	padding-left: 10px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ff0000;
+}
+.navbar-form .form-group>a:hover{
+	color: #ff0000;
+}
+/* carousel */
+.carousel-inner .item img{
+	width: 100%;
+}
+
+
+/*.info{
+	background-image: url(../images/bg-newInfo.jpg);
+	background-repeat: no-repeat;
+}
+.news{
+	background-image: url(../images/bg-newInfo.jpg);
+	background-repeat: no-repeat;
+}*/
+.thumbnail{
+	border:1px #EE00ff solid;
+	/*background-image: url(../images/bg-newInfo.jpg);
+	background-repeat: no-repeat;*/
+	/*background-color: #CC99CC;*/
+	margin-top: 20px;
+}
+.glyphicon-circle-arrow-left{
+	color: #ff0000;
+	padding-right: 10px;
+	font-size: 20px;
+}
+ #id1,#id3{
+	padding-right: 10px;
+	font-family: Yekan;
+	color: #ff0000;
+}
+.thumbnail p{
+	font-family: Yekan;
+}
+ .news{
+	padding-top: 40px;
+}
+#id4{
+	color:#EE00ff;
+	font-family: Yekan;
+}
+#id5{
+	color:#EE00ff;
+	font-family: Yekan;
+}
+@media (min-width: 992px) {  
+	.thumbnail {
+		height: 420px;
+	}
+
+}
+/* news and info */
+
+/*.container-fluid{
+	position: relative;
+}
+#image {
+	position: absolute;
+}
+.text {
+	z-index: 100;
+    position: absolute;
+    padding-top: 6%;
+    font-family: Yekan;
+}
+.text article {
+	padding-top: 5%;
+	padding-right: 10%;
+	color: #ffffff;
+}
+
+.title-info  {
+	padding-right: 45%;
+	color: #ffffff;
+	
+}
+
+@media (max-width: @screen-xs) {
+    .text {font-size: 5px;}
+}
+
+@media (max-width: @screen-sm) {
+    .text {font-size: 10px;}
+}
+@media (max-width: @screen-md) {
+    .text {font-size: 14px;}
+}
+.info img{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	
+	
+}
+.news img{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	
+}*/
+
+/*.info h4 {
+	position: relative;
+	padding-top: -80px;
+}*/
+
+/*footer */
+
+footer{
+	background-color: #bddad8;
+	clear: both;
+	/*position: absolute;
+	right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;*/
+}
+.list-footer {
+	list-style: none;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.list-footer li{
+	padding-top: 10px;
+	font-size: 14px;
+	color: #545656;
+	font-family: Yekan;
+
+}
+
+.copyright h6 {
+	font-size: 14px;
+	color: #545656;
+	font-family: Yekan;
+	padding-bottom: 10px;
+	padding-right: 25px;
+}
+.glyphicon-map-marker,.glyphicon-earphone,.glyphicon-envelope{
+	padding-left: 10px;
+}
+.social-network{
+	list-style: none;
+	
+}
+.social .social-network{
+   /* padding-top: 70px;
+	padding-left: 80px;*/
+	padding-right: 25px;
+	padding-bottom: 10px;
+}

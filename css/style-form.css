@@ -1,0 +1,63 @@
+ h4{
+	padding-right: 20%;
+	padding-bottom: 3%;
+	font-family: Yekan;
+	color: #444340;
+}
+form{
+	font-family: Yekan;
+	color: #444340;
+}
+.form-group input , textarea{
+	margin-bottom: 5%;
+}
+
+/* Small devices (tablets, 768px and up) 
+
+Greater than 768 px, push logo left and tagline right. Alter 
+tagline font size, alignment, and padding for larger dimensions.
+
+*/
+@media (min-width: 768px) {  
+	
+	form {
+		width: 750px;
+		margin: auto auto;
+	}
+
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    border-radius: 20px;
+    font-family: Yekan;
+    /*padding-top: 5%;*/
+}
+.btn-primary:hover {
+	background-color: #fb3737;
+	border-color: #fb3737;
+}
+/* information */
+.nav-stacked>li {
+	/*padding-right: 5%;
+	padding-bottom: 5%;
+	padding-top: 10%;*/
+	font-family: Yekan;
+	color: #444340;
+}
+.list-info ul{
+	
+}
+.glyphicon-ok-circle{
+	padding-left: 10px;
+	color: #EE00ff;
+}
+.glyphicon-check {
+	color: #EE00ff;
+}
+#list-info{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/*margin-right: 45px;*/
+}

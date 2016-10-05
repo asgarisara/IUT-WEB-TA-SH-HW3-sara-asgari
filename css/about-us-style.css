@@ -1,0 +1,17 @@
+.intro-title h4{
+	font-family: Yekan;
+	color: #EE00ff;
+}
+.intro-text p{
+	font-family: Yekan;
+	color: #444340;
+}
+.intro-text{
+	margin-top: 20px;
+}
+.intro-img{
+	margin-bottom: 20px;
+}
+/*.total{
+	background-color: #EE00ff;
+}*/

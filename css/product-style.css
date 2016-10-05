@@ -1,0 +1,39 @@
+.nav-tabs>li>a {
+	color: #444340;
+	font-family: Yekan;
+}
+.nav-tabs>li>a:hover{
+	color: #ff0000;
+}
+.nav-tabs>li.active>a {
+	color: #ff0000;
+}
+ .btn-primary{
+	color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+    border-radius: 20px;
+    font-family: Yekan;
+}
+.ul-thumbnail>ul{
+	margin-top: 3%;
+
+}
+.ul-thumbnail>ul>li{
+	margin-left: 3%
+}
+.caption>h3,h5 {
+	font-family: Yekan;
+	color: #444340;
+}
+.caption>h5{
+	padding-right: 6%;
+}
+.btn-primary:hover {
+	background-color: #fb3737;
+	border-color: #fb3737;
+}
+.modal-header h3 , .modal-body p{
+	font-family: Yekan;
+	color: #444340;
+}
